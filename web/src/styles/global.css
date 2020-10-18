@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #FFF;
+    background: #ebf2f5;
+}
+
+body, input, button, textarea {
+    font: 600 18px Nunito, sans-serif;
+}
+
+.error-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.error-container .error-message{
+    border: 1px solid #B3DAE2;
+    color: #5C8599;
+
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    height: 64px;
+    border: 0;
+    background: #ff5555;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: 800;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.error-container .back-button{
+    margin-top: 25px;
+    width: 100px;
+    height: 44px;
+    border: 0;
+    background: #5C8599;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    cursor: pointer;
+  
+    
+    
+}
